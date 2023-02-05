@@ -22,7 +22,28 @@
             <button>NEW GAME</button>
             <section>
                 <h3 id="textOutput">Your Guess</h3>
+                <label for="inputBox">Enter Your Guess</label>
                 <input type="number" name="" id="inputBox" min="1" max="100"/>
+            </section>
+            <section>
+                <p>Current Range</p>
+                <span id="rangeOut">1-100</span>
+                <div id="range">
+                    <span id="low"></span>
+                    <span id="space"></span>
+                    <span id="high"></span>
+
+                </div>
+            </section>
+            <section class="stats">
+                <div class="info">
+                    <p>Number of previous attempts</p>
+                    <span id="attempts">0</span>
+                </div>
+                <div class="info">
+                    <p>Your previous Guess</p>
+                    <span id="guesses">-</span>
+                </div>
             </section>
         </div>
     </main>
