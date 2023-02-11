@@ -1,0 +1,43 @@
+html{
+    font-size: 10px;
+    font-weight: 300;
+
+}
+
+body {
+    width: 90vw;
+    margin: 0 auto;
+    background: radial-gradient(#343e6e, #161929);
+}
+
+main{
+    text-align: center;
+    background-color: aliceblue;
+    border: solid #94a90a;
+    border-width: 0 10px 10px 10px;
+    min-height: 80vh;
+    border-radius: 0 0 3rem 3rem;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    font-size: 2.2rem;
+    margin: 8rem 0;
+
+}
+
+p{
+    font-size: 1.8rem;
+}
+
+.buttonWraper{
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background: #94a90a;
+}
